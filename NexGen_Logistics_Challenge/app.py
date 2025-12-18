@@ -1,3 +1,36 @@
+"""
+Project Name: NexGen Logistics – Predictive Delivery Optimizer
+
+Description:
+This Streamlit application analyzes end-to-end logistics data to identify
+delivery delays, operational inefficiencies, and cost drivers. It integrates
+multiple datasets such as orders, delivery performance, routing, and cost
+breakdowns to generate actionable insights. A machine learning based delay
+risk predictor helps estimate the probability of delivery delays based on
+route distance, traffic conditions, and weather impact.
+
+Key Features:
+- Data ingestion and cleaning from multiple operational datasets
+- Merged analytics view across orders, delivery, routing, and costs
+- Delay metrics and performance KPIs
+- Interactive visual analysis for logistics optimization
+- Predictive delivery delay risk estimator using machine learning
+
+Tech Stack:
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+Intended Audience:
+Operations managers, supply chain analysts, and logistics planners seeking
+data-driven insights for improving delivery reliability and cost efficiency.
+
+Author: Tanisha Priya
+
+Last Updated: December 2025
+"""
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
