@@ -1,0 +1,22 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+backend/**/__pycache__/
+
+# Environment variables
+.env
+.env.local
+backend/.env
+frontend/.env.local
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+
+# macOS
+.DS_Store
+
+# Python cache / generated files
+*.pkl
+*.faiss
